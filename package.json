@@ -1,0 +1,27 @@
+{
+  "name": "styles-to-text",
+  "version": "1.0.0",
+  "description": "Tiny package for styling text by using javascript style definitions. Commonly used for handling texts of content management systems like takeshape, graphcms and other.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "test-watch": "ava --watch"
+  },
+  "keywords": [
+    "js text styles",
+    "styles",
+    "static site generator",
+    "cms",
+    "content management system",
+    "takeshape",
+    "takeshape.io",
+    "graphcms",
+    "gatsby",
+    "gatsbyjs"
+  ],
+  "author": "Coderwerlsch, Joseph Ribbe <social@coderwelsch.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^3.0.0"
+  }
+}
