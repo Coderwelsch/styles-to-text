@@ -3,5 +3,6 @@ module.exports = {
 	"ITALIC": "em",
 	"UNDERLINE": "u",
 	"LINK": "a",
-	"STRIKE": "strike"
+	"STRIKE": "strike",
+	"CODE": "code"
 };

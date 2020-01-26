@@ -1,6 +1,6 @@
 {
   "name": "styles-to-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny package for styling text by using javascript style definitions. Commonly used for handling texts of content management systems like takeshape, graphcms and other.",
   "main": "index.js",
   "scripts": {
