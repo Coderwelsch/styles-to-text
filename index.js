@@ -85,7 +85,6 @@ function applyRangeStyle (text, range) {
 
 			// mapped the style offset to the current text part
 			const mappedOffset = offset - textLengthCount;
-			const mappedRangeEnd = rangeEnd - textLengthCount;
 
 			const rangeStartedBefore = textLengthCount > offset;
 			const rangeEndedBeforePart = rangeEnd < textLengthCount;
@@ -97,6 +96,7 @@ function applyRangeStyle (text, range) {
 			if (rangeEndedBeforePart || rangeEndedAfterPart || !remainingTextToStyleLength) {
 				// do not increase textLengthCount (because nothing will be styled)
 				styledText += part;
+				textLengthCount += partLength;
 
 				// continues to the next text part
 				continue;
