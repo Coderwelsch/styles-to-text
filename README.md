@@ -19,6 +19,7 @@ yarn styles-to-text
 ```javascript
 import stylesToText from "styles-to-text";
 
+
 const textToStyle = `To be, or not to be, that is the question.`;
 
 const styleDefinitions = [  {
@@ -35,6 +36,8 @@ const styleDefinitions = [  {
     style: "UNDERLINE"
 }  ];
 
+// Outputs this:
+// <strong>To <del>be, or not <u>to be,</u></del></strong><u> that is the</u> question.
 console.log(stylesToText(textToStyle, styleDefinitions));
 ```
 
