@@ -2,6 +2,10 @@
 
 A small module for styling text with html by using arrays of text style definitions. Commonly necessary for parsing text blocks from content management systems like [Takeshape.io](https://www.takeshape.io/) and other cm-systems.
 
+## Example
+
+[![Edit react-styles-to-text-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/hungry-monad-kb7ze?fontsize=14&hidenavigation=1&theme=dark)
+
 ## Install
 
 ```shell script
