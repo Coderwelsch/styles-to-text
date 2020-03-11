@@ -37,3 +37,12 @@ const styleDefinitions = [  {
 
 console.log(stylesToText(textToStyle, styleDefinitions));
 ```
+
+## Contributors are welcome!
+
+Feel free to contribute and improve this little module! 😇
+
+## ToDos
+- [ ] Documentation :D
+- [ ] More features?
+- [x] Tests
