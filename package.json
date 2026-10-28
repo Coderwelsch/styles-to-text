@@ -22,6 +22,6 @@
   "author": "Coderwerlsch, Joseph Ribbe <social@coderwelsch.com>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^3.0.0"
+    "ava": "^8.2.0"
   }
 }
